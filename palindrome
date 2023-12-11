@@ -24,12 +24,12 @@ bool isPalindrome(string s) {
 
 int main() {
     string s;
-    cout << "Enter a string: ";
+    cout << "Input a string: ";
     getline(cin, s);
     if (isPalindrome(s)) {
-        cout << "The string is a palindrome." << endl;
+        cout << "The input is a palindrome." << endl;
     } else {
-        cout << "The string is not a palindrome." << endl;
+        cout << "The input is not a palindrome." << endl;
     }
     return 0;
 }
